@@ -11,6 +11,9 @@ let valueInNumber = Number(score)
 // "33" => 33
 // "33abc" => NaN
 //  true => 1; false => 0
+//null => 0
+//undefined => undefined
+
 
 let isLoggedIn = "hitesh"
 
@@ -31,7 +34,7 @@ let stringNumber = String(someNumber)
 
 let value = 3
 let negValue = -value
-// console.log(negValue);
+// console.log(negValue);    //-3
 
 // console.log(2+2);
 // console.log(2-2);
