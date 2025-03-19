@@ -1,5 +1,5 @@
 
-function sayMyName(){
+function sayMyName(){          //define
     console.log("H");
     console.log("I");
     console.log("T");
@@ -8,14 +8,14 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()
+// sayMyName()   //excution
 
 // function addTwoNumbers(number1, number2){
 
 //     console.log(number1 + number2);
 // }
 
-function addTwoNumbers(number1, number2){
+function addTwoNumbers(number1, number2){     //no need to give type
 
     // let result = number1 + number2
     // return result
@@ -43,7 +43,8 @@ function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+// console.log(calculateCartPrice(200, 400, 500, 2000))       // output a array [200, 400, 500, 2000]   for   (...num1)   
+ // for this val1 have 200 and 400 goes to val2   out
 
 const user = {
     username: "hitesh",
