@@ -73,6 +73,9 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+//++++++++++++++++++++++++++++++++++++++++
+    //o bject de-structure and JSON API intro 
+
 const course = {
     coursename: "js in hindi",
     price: "999",
@@ -98,7 +101,7 @@ const {courseInstructor: instructor} = course    // for clean code shortcut
 
 //json
 // {
-//     "name": "hitesh",
+//     "name": "hitesh",    //key and value both are string
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
