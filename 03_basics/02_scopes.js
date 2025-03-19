@@ -1,3 +1,12 @@
+// if (true) {
+//     let a = 10
+//     const b = 20 
+//     var c = 30
+// }
+// console.log(a);   //error
+// console.log(b);        //error
+// console.log(c);     //30 due to var
+
 //var c = 300
 let a = 300
 if (true) {
@@ -13,7 +22,8 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
-
+//++++++++++++++++++++++++++++++++++++++++++++++
+//scope level and mini hoisting in javascript 
 function one(){
     const username = "hitesh"
 
@@ -21,9 +31,9 @@ function one(){
         const website = "youtube"
         console.log(username);
     }
-    // console.log(website);
+    // console.log(website);      //give error website ka scope to khatam ho gya
 
-     two()
+     two()        //hitesh
 
 }
 
@@ -35,10 +45,10 @@ if (true) {
         const website = " youtube"
         // console.log(username + website);
     }
-    // console.log(website);
+    // console.log(website);    //error
 }
 
-// console.log(username);
+// console.log(username);    //give error username ka scope nhi hai
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
