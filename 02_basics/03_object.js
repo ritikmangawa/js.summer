@@ -21,7 +21,7 @@
 
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// singleton
+// singleton         //if we decclare object as literal then singleton did not form but if make by constructor then singleton formed
 // Object.create    //construction method ke through
 
 // object literals
@@ -43,7 +43,7 @@ const JsUser = {
 // console.log(JsUser.email)   //for object acess method
 // console.log(JsUser["email"])//////// it is also imp
 // console.log(JsUser["full name"])
-// console.log(JsUser[mySym])
+// console.log(JsUser[mySym])   //how access symbol
 
 JsUser.email = "hitesh@chatgpt.com"     
 // Object.freeze(JsUser)       //user for freeze a object
@@ -57,5 +57,6 @@ JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);   //string interpolation
 }
 
-console.log(JsUser.greeting());
+console.log(JsUser.greeting());  //undefined
+console.log(JsUser.greeting);  //only function reference
 console.log(JsUser.greetingTwo());
