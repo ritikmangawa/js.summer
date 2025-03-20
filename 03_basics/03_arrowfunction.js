@@ -8,7 +8,7 @@ const user = {
     }
 
 }
-
+//
 // user.welcomeMessage()   //hitesh , welcome to website
 // user.username = "sam"
 // user.welcomeMessage()    //sam , welcome to website
