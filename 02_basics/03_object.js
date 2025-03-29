@@ -57,6 +57,16 @@ JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);   //string interpolation
 }
 
+// Call the greeting method
+console.log(JsUser.greeting());  // Outputs: "Hello JS user" and then undefined (because console.log() logs the return value, which is undefined)
+
+// Call the greeting method reference
+console.log(JsUser.greeting);  // Outputs: the function reference
+
+// Call the greetingTwo method
+console.log(JsUser.greetingTwo()); // Outputs: "Hello JS user, John"
+
+
 console.log(JsUser.greeting());  //undefined
 console.log(JsUser.greeting);  //only function reference
 console.log(JsUser.greetingTwo());
