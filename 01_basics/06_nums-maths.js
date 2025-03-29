@@ -1,11 +1,12 @@
 const score = 400
 // console.log(score);
 
-const balance = new Number(100)
-// console.log(balance);
+const balance = new Number(100); // Creates a Number object with the value 100
+console.log(balance); // Logs the Number object: [Number: 100]
 
-// console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
+console.log(balance.toString().length); // Converts the number to a string and logs its length: 3 (the string '100' has 3 characters)
+console.log(balance.toFixed(1)); // Formats the number to one decimal place and logs: '100.0'
+
 
 const otherNumber = 123.8966
 
