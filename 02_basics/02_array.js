@@ -28,6 +28,14 @@ console.log(real_another_array);
 console.log(Array.isArray("Hitesh"))
 console.log(Array.from("Hitesh"))
 console.log(Array.from({name: "hitesh"})) // interesting
+// Check if "Hitesh" is an array
+console.log(Array.isArray("Hitesh")); // Outputs: false
+
+// Convert the string "Hitesh" into an array of characters
+console.log(Array.from("Hitesh")); // Outputs: ['H', 'i', 't', 'e', 's', 'h']
+
+// Convert an object with a name property into an array
+console.log(Array.from({name: "hitesh"})); // Outputs: []
 
 let score1 = 100
 let score2 = 200
